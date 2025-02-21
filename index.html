@@ -197,7 +197,7 @@
         function fetchData() {
             document.getElementById('loading-indicator').style.display = 'block';
 
-            fetch('http://localhost:8000/api/testmodels/')
+            fetch('https://fayaz1234.pythonanywhere.com/api/testmodels/')
                 .then(response => response.json())
                 .then(data => {
                     const container = document.getElementById('testmodel-container');
